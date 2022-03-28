@@ -1,0 +1,1216 @@
+/* 
+*{
+border: 1px solid black;
+}*/
+.main{ 
+    max-width: 100%;
+    height: 235em;
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 34em;
+    
+    
+}
+.villa > .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 50%;
+    background-color: rgba(255,0,0,0.8);
+    color: #ffffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato";
+    align-items: center;
+    justify-content: center;
+     opacity:1;
+
+}
+
+/* .villa .hover:hover{
+
+opacity: 1 !important;
+
+} */
+
+.navbar{
+    display: flex;
+    justify-content:space-around;
+}
+.home-image{
+    height: 50em;
+    overflow: hidden;
+}
+
+.home > img{
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+.home > .home-content{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 20em;
+    left: 15em;
+    
+   
+   
+    text-align: center;
+   
+    
+}
+.home > .home-content > #para1{
+    font-size: 51px;
+    line-height: 1px;
+
+color: #ffffff;
+font-weight: 500;
+font-family: "Poppins";
+}
+.home > .home-content > h1{
+    font-size: 138px;
+    line-height: 1px;
+
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.home >.home-content >#para2{
+    font-size: 18px;
+
+    line-height: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.home >.home-content >button{
+    margin: 1%;
+    width: 185px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #d83030;
+    left: 30em;
+    position: relative;
+
+}
+ .heading{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+   
+}
+.about-div2{
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    flex-wrap: wrap;
+    height: 23em;
+}
+#about-h1{
+    color: #272727;
+}
+#about-h2{
+    color:#d83030;
+}
+.about-div1{
+    display: flex;
+    width: 6em;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.imageflex2{
+    display: flex;
+    height: 21em;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about-btn{
+    width: 139px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #d83030;
+}
+#about-p1{
+
+    width: 490px;
+    height: 20px;
+    font-size: 16px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+#about-p2{
+    width: 493px;
+
+    height: 100px;
+    font-size: 14px;    
+    color: #424242;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.about{
+    display: flex;
+    width: 55em;
+    justify-content: space-around;
+    position: relative;
+    top: 3em;
+    left: 11em;
+}
+.imageflex1 > img{
+    width: 12em;
+    height: 19.8em;
+    border-radius: 27px;
+}
+.imageflex2 > div >img{
+    width: 11em;
+    height: 9.2em;
+    border-radius: 5px;
+}
+
+.imageflex1{
+    position: relative;
+    top: 1.7vh;
+}
+
+.villas > .img-r1{
+    display: flex;
+    flex-direction: row;
+    width: 83em;
+    justify-content: space-between;
+}
+.villas > .img-r2{
+    display: flex;
+    flex-direction: row;
+    width: 83em;
+    justify-content: space-between;
+}
+.villas {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    top: 3em;
+    height: 51em;
+}
+.villa {
+    height: 25em;
+    width: 20em;
+    overflow: hidden;
+}
+.villa>img{
+    width: 21em;
+    height: 65vh;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8em;
+}
+.contact-1{
+    display: flex;
+    flex-direction: column;
+    background-color: #d83030;
+    text-align: center;
+    height: 45vh;
+}
+.contact-1> div{
+   width: 50em;
+   position: relative;
+   left: 17em;
+}
+.contact-image>img{
+    width:43em;
+    height: 300px;
+
+}
+.flex2{
+    width: 41em;
+    background-image: url(/assests/img/Rectangle\ 9\ \(1\).png);
+    
+} 
+.contact-2{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 4vh;
+  
+    
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    height: 36vh;
+}
+.form{
+    position: relative;
+    width: 33.5em;
+    top: 2em;
+    height: 39vh;
+    left: 3em;
+}
+input{
+    width: 13em;
+    position: relative;
+    height: 4vh;
+    background-color: rgba(87,87,87,0.788235294117647);
+border: 1px solid #767676;
+}
+.form-btn{
+    position: relative;
+    top: 0.5em;
+    width: 31em;
+    height: 5vh;
+    background-color: #d83030;
+}
+.contact-btn{
+    width: 232px;
+height: 40px;
+border-radius: 28px;
+color:#d83030 ;
+background-color: #ffffff;
+position: relative;
+}
+.contact-1>div>h1,.contact-1>div>p{
+    color: #ffffff;
+    font-weight: 600;
+font-family: "Poppins";
+}
+.commercial-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 22em;
+    position: relative;
+    left: 33em;
+}
+.commercial-flex>div{
+    text-align: center;
+}
+.commercial{
+    position: relative;
+    top: 10em;
+    
+
+}
+.commercial-flex2{
+    display: flex;
+    justify-content: center;
+}
+.commercial-flex2>div{
+    background-color: #f8f8f8;
+    border: 1px solid #ebebeb;
+    height: 8em;
+    width: 15em;
+}
+.commercial-flex2>div>img{
+    position: relative;
+    top: 2em;
+    left: 2em;
+}
+.subfoot>div{
+    position: relative;
+    top: 2em;
+}
+#commercial-h2,#commercial-h1{
+    font-family: "Poppins";
+    font-weight: 600;
+}
+#commercial-h2{
+    color: #d83030;
+}
+.email-flex2{
+    display: flex;
+    justify-content: space-between;
+    width: 16em;
+}
+.email-flex1{
+    display: flex;
+}
+.email-news{
+    width: 39em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 17em;
+    top: 3em;
+    background-color: #d83030;
+}
+.email-flex2>div>input{
+    top: 1.5em;
+    height: 5vh;
+    color: grey;
+    background-color: white;
+}
+#email-btn{
+    top: 1.5em;
+    position: relative;
+    height: 5vh;
+    background-color:  #001722;
+    color: white;
+}
+.email-flex1>h1{
+    color: white;
+    font-family: "poppins"
+}
+.subscribe{
+    
+    background-color: #d83030;
+    position: relative;
+    height: 30vh;
+    top: 15em;
+}
+.subfoot{
+    display: flex;
+    flex-direction: column;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    width: 16em;
+}
+.last-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 83.3em;
+    top: 15em;
+    height: 31em;
+    background-image: url(/assests/img/Rectangle\ 13.png);
+
+}
+.foot-list{
+    list-style: none;
+}
+.foot-list>li{
+    margin-bottom: 20px;
+    position: relative;
+    right:2em;
+    color: white;
+}
+.sub-detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 15em;
+}
+.sub-detail > h1{
+    height: 5px;
+    font-size: 12px;
+    text-align: justify;
+    color: white;
+   
+}
+.foot-img{
+    position: relative;
+    top: 1em;
+}
+#foot-p{
+    position: relative;
+    top: 2em;
+}
+.fa-map-marker,.fa-phone,.fa-envelope-open-text{  
+    position: relative;
+    top: 1.2em;
+    right: 1.2em;
+    color: #f8f8f8;
+
+}
+.subfoot-1{
+    display: flex;
+    flex-direction: column;
+}
+.foot-btn{
+    border-radius: 30px;
+    height: 5vh;
+    width: 3em;
+    background-color: #d83030;
+
+}
+.fa-youtube,.fa-instagram,.fa-twitter,.fa-facebook-f{
+    color: #ffffff;
+}
+.footer1 p,.footer1 h1{
+ color: white;
+}
+#footer-id{
+    position: absolute;
+    top: 22em;
+    right: 35em;
+    color: white;
+}
+@media(max-width:820px){
+    .main{
+        height: 410em;
+    }
+    .home{
+        width: 54em;
+    }
+    .list{
+        list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 34em;
+    top: 6em;
+    left: 25em;
+    position: relative;
+    }
+    
+    .home >.home-content >button{
+        margin: 1%;
+        width: 185px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: #d83030;
+        left: 12em;
+        position: relative;
+    }
+    .home-image{
+        width: 94em;
+    }
+    .home > .home-content{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 28em;
+        width: 32em;
+        left: 28em;
+        text-align: center;
+    }
+    .home-image> img{
+        width: 119em;
+    position: relative;
+    left: -25em;
+    height: 85vh;
+    }
+    .home > .home-content >#para1{
+        font-size: 36px;
+        line-height: 1px;
+        color: black;
+        font-weight: 100;
+        font-family: "Poppins";
+    }
+    .home >.home-content >#para2{
+        font-size: 15px;
+        line-height: 1px;
+        width: 35em;
+        color: black;
+        position: relative;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+    .home>.home-content>h1{
+        font-size: 63px;
+        line-height: 1px;
+        color: black;
+        width: 8em;
+        font-weight: 700;
+        font-family: "Poppins";
+    }
+    #about-h1{
+        color: #272727;
+        position: relative;
+        left: 2em;
+    }
+    .about-btn{
+        width: 139px;
+        height: 44px;
+        position: relative;
+        left: 13em;
+        border-radius: 22px;
+        background-color: #d83030;
+    }
+    #about-h1{
+        color: #272727;
+        position: relative;
+        left: 2em;
+    }
+    .about-div1{
+        display: flex;
+        width: 11em;
+        justify-content: space-around;
+    flex-direction: row;
+    }
+    .about{
+        display: flex;
+        width: 60em;
+        justify-content: space-around;
+        position: relative;
+        top: 3em;
+        left: 9em;
+    }
+    .villa>img{
+        height: 45vh;
+        width: 42em;
+    }
+    .contact-1{
+        display: flex;
+        flex-direction: column;
+        background-color: #d83030;
+        text-align: center;
+        height: 45vh;
+        width: 94em;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8em;
+        width: 79em;
+    }
+    .villas>.img-r1,.villas>.img-r2{
+        display: flex;
+        position: relative;
+        left: 10px;
+        width: 94em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        width: 104%;
+    }
+    .villa{
+        height: 25em;
+    width: 43em;
+    overflow: hidden;
+    }
+    .villas{
+        display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3em;
+    width: 87em;
+    }
+    .contact-2{
+        display: flex;
+        flex-direction: row;
+        width: 95em;
+    }
+    .form-flex{
+        width: 49em;
+    }
+    .navbar>img{
+        position: relative;
+    left: 396px;
+    width: 30em;
+    }
+    .flex2{
+        width: 51em;
+    }
+    .contact-image>img{
+        width: 43em;
+        height: 475px;
+    }
+    .form-btn{
+        position: relative;
+        top: 0.5em;
+        width: 45em;
+        right: 23px;
+        height: 5vh;
+        background-color: #d83030;
+    }
+    .contact-1>div{
+        width: 71em;
+        top: 5em;
+        position: relative;
+        left: 14em;
+    }
+    .commercial-flex{
+        display: flex;
+    justify-content: space-between;
+    width: 22em;
+    position: relative;
+    left: 34em;
+    }
+    .commercial{
+        position: relative;
+    top: 10em;
+    width: 30em;
+    }
+    .commercial-flex2{
+        display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 20em;
+    flex-direction: column;
+    }
+    .subscribe{
+        background-color: #d83030;
+    position: relative;
+    height: 44vh;
+    width: 67em;
+    top: -22em;
+    left: 22em;
+}
+
+    .email-news{
+        width: 39em;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        left: 12em;
+        top: 15em;
+        background-color: #d83030;
+    }
+   input{
+        width: 10em;
+    position: relative;
+    height: 4vh;
+    font-size: 25px;
+    right: 28px;
+    background-color: grey;
+    border: 1px solid grey
+    }
+    .email-flex1{
+        position: relative;
+    top: 12px;
+    }
+    #email-btn{
+        top: 2.7em;
+    }
+    .imageflex2>div>img{
+        width: 16em;
+    height: 9.2em;
+    position: relative;
+    left: 33px;
+    border-radius: 27px;
+    }
+    .imageflex1 > img{
+        width: 18em;
+    height: 19.8em;
+    border-radius: 27px;
+    }
+    .last-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 94em;
+        top: -19em;
+        height: 31em;
+        background-image: url(/assests/img/Rectangle\ 13.png);
+    }
+    #footer-id{
+        position: absolute;
+    top: 28em;
+    right: 37em;
+    color: white;
+    }
+}
+
+
+@media(max-width:414px){
+    .main{
+        height: 394em;
+    }
+    .home{
+        width: 54em;
+    }
+    .home >.home-content >button{
+        margin: 1%;
+        width: 185px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: #d83030;
+        left: 12em;
+        position: relative;
+    }
+    .home-image{
+        width: 94em;
+    }
+    .home > .home-content{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 28em;
+        width: 32em;
+        left: 28em;
+        text-align: center;
+    }
+    .home-image> img{
+        width: 119em;
+    position: relative;
+    left: -25em;
+    height: 119vh;
+    }
+    .home > .home-content >#para1{
+        font-size: 36px;
+        line-height: 1px;
+        color: black;
+        font-weight: 100;
+        font-family: "Poppins";
+    }
+    .home >.home-content >#para2{
+        font-size: 15px;
+        line-height: 1px;
+        width: 35em;
+        color: black;
+        position: relative;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+    .home>.home-content>h1{
+        font-size: 63px;
+        line-height: 1px;
+        color: black;
+        width: 8em;
+        font-weight: 700;
+        font-family: "Poppins";
+    }
+    #about-h1{
+        color: #272727;
+        position: relative;
+        left: 2em;
+    }
+    .about-btn{
+        width: 139px;
+        height: 44px;
+        position: relative;
+        left: 13em;
+        border-radius: 22px;
+        background-color: #d83030;
+    }
+    #about-h1{
+        color: #272727;
+        position: relative;
+        left: 2em;
+    }
+    .about-div1{
+        display: flex;
+        width: 11em;
+        justify-content: space-around;
+    flex-direction: row;
+    }
+    .about{
+        display: flex;
+        width: 60em;
+        justify-content: space-around;
+        position: relative;
+        top: 3em;
+        left: 9em;
+    }
+    .villa>img{
+        height: 45vh;
+        width: 42em;
+    }
+    .contact-1{
+        display: flex;
+        flex-direction: column;
+        background-color: #d83030;
+        text-align: center;
+        height: 45vh;
+        width: 94em;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8em;
+        width: 79em;
+    }
+    .villas>.img-r1,.villas>.img-r2{
+        display: flex;
+        position: relative;
+        left: 10px;
+        width: 94em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        width: 104%;
+    }
+    .villa{
+        height: 25em;
+    width: 43em;
+    overflow: hidden;
+    }
+    .villas{
+        display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3em;
+    width: 87em;
+    }
+    .contact-2{
+        display: flex;
+        flex-direction: row;
+        width: 95em;
+    }
+    .form-flex{
+        width: 49em;
+    }
+    .navbar>img{
+        position: relative;
+    left: 396px;
+    width: 30em;
+    }
+    .flex2{
+        width: 51em;
+    }
+    .contact-image>img{
+        width: 43em;
+    height: 363px;
+    }
+    .form-btn{
+        position: relative;
+        top: 0.5em;
+        width: 45em;
+        right: 23px;
+        height: 5vh;
+        background-color: #d83030;
+    }
+    .contact-1>div{
+        width: 71em;
+        top: 5em;
+        position: relative;
+        left: 14em;
+    }
+    .commercial-flex{
+        display: flex;
+    justify-content: space-between;
+    width: 22em;
+    position: relative;
+    left: 34em;
+    }
+    .commercial{
+        position: relative;
+    top: 10em;
+    width: 30em;
+    }
+    .commercial-flex2{
+        display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 20em;
+    flex-direction: column;
+    }
+    .subscribe{
+        background-color: #d83030;
+    position: relative;
+    height: 56vh;
+    width: 67em;
+    top: -22em;
+    left: 22em;
+    }
+    .email-news{
+        width: 39em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 19em;
+    top: 3em;
+    background-color: #d83030;
+    }
+    input{
+        width: 10em;
+    position: relative;
+    height: 5vh;
+    font-size: 25px;
+    right: 28px;
+    background-color: rgba(87,87,87,0.788235294117647);
+    border: 1px solid #767676;
+    }
+    .email-flex1{
+        position: relative;
+    top: 12px;
+    }
+    #email-btn{
+        top: 2.6em;
+    }
+    .imageflex2>div>img{
+        width: 16em;
+    height: 9.2em;
+    position: relative;
+    left: 33px;
+    border-radius: 27px;
+    }
+    .imageflex1 > img{
+        width: 18em;
+    height: 19.8em;
+    border-radius: 27px;
+    }
+    .last-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 94em;
+        top: -19em;
+        height: 31em;
+        background-image: url(/assests/img/Rectangle\ 13.png);
+    }
+    #footer-id{
+        position: absolute;
+        top: 28em;
+        right: 43em;
+        color: white;
+    }
+}
+@media(max-width:375px){
+    .main{
+        height: 313em;
+    }
+    .home{
+        width: 54em;
+    }
+    .home >.home-content >button{
+        margin: 1%;
+        width: 185px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: #d83030;
+        left: 12em;
+        position: relative;
+    }
+    .home-image{
+        width: 93em;
+    }
+    .home > .home-content{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 28em;
+        width: 32em;
+        left: 28em;
+        text-align: center;
+    }
+    .home-image> img{
+        width: 117em;
+        position: relative;
+        left: -25em;
+        height: 160vh;
+    }
+    .home > .home-content >#para1{
+        font-size: 36px;
+        line-height: 1px;
+        color: black;
+        font-weight: 100;
+        font-family: "Poppins";
+    }
+    .home >.home-content >#para2{
+        font-size: 15px;
+        line-height: 1px;
+        width: 35em;
+        color: black;
+        position: relative;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+    .home>.home-content>h1{
+        font-size: 63px;
+        line-height: 1px;
+        color: black;
+        width: 8em;
+        font-weight: 700;
+        font-family: "Poppins";
+    }
+    #about-h1{
+        color: #272727;
+        position: relative;
+        left: 2em;
+    }
+    .about-btn{
+        width: 139px;
+        height: 44px;
+        position: relative;
+        left: 13em;
+        border-radius: 22px;
+        background-color: #d83030;
+    }
+    #about-h1{
+        color: #272727;
+        position: relative;
+        left: 2em;
+    }
+    .about-div1{
+        display: flex;
+        width: 11em;
+        justify-content: space-around;
+    flex-direction: row;
+    }
+    .about{
+        display: flex;
+        width: 60em;
+        justify-content: space-around;
+        position: relative;
+        top: 3em;
+        left: 9em;
+    }
+    .villa>img{
+        height: 60vh;
+        width: 42em
+    }
+    .contact-1{
+        display: flex;
+        flex-direction: column;
+        background-color: #d83030;
+        text-align: center;
+        height: 45vh;
+        width: 94em;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8em;
+        width: 79em;
+    }
+    .villas>.img-r1,.villas>.img-r2{
+        display: flex;
+        position: relative;
+        left: 10px;
+        width: 94em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        width: 104%;
+    }
+    .villa{
+        height: 25em;
+    width: 43em;
+    overflow: hidden;
+    }
+    .villas{
+        display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3em;
+    width: 87em;
+    }
+    .contact-2{
+        display: flex;
+        flex-direction: row;
+        width: 95em;
+    }
+    .form-flex{
+        width: 49em;
+    }
+    .navbar>img{
+        position: relative;
+    left: 396px;
+    width: 30em;
+    }
+    .flex2{
+        width: 51em;
+    }
+    .contact-image>img{
+        width: 43em;
+    height: 300px;
+    }
+    .form-btn{
+        position: relative;
+        top: 0.5em;
+        width: 45em;
+        right: 23px;
+        height: 5vh;
+        background-color: #d83030;
+    }
+    .contact-1>div{
+        width: 71em;
+    position: relative;
+    left: 14em;
+    }
+    .commercial-flex{
+        display: flex;
+    justify-content: space-between;
+    width: 22em;
+    position: relative;
+    left: 34em;
+    }
+    .commercial{
+        position: relative;
+    top: 59em;
+    width: 30em;
+    }
+    .commercial-flex2{
+        display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 20em;
+    flex-direction: column;
+    }
+    .subscribe{
+        background-color: #d83030;
+    position: relative;
+    height: 67vh;
+    width: 67em;
+    top: 29em;
+    left: 22em;
+    }
+    .email-news{
+        width: 39em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 12em;
+    top: 11em;
+    background-color: #d83030;
+    }
+    input{
+        width: 10em;
+    position: relative;
+    height: 5vh;
+    font-size: 25px;
+    right: 28px;
+    background-color: rgba(87,87,87,0.788235294117647);
+    border: 1px solid #767676;
+    }
+    .email-flex1{
+        position: relative;
+    top: 12px;
+    }
+    #email-btn{
+        top: 2.6em;
+    }
+    .imageflex2>div>img{
+        width: 16em;
+    height: 9.2em;
+    position: relative;
+    left: 33px;
+    border-radius: 27px;
+    }
+    .imageflex1 > img{
+        width: 18em;
+    height: 19.8em;
+    border-radius: 27px;
+    }
+    .last-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 94em;
+        top: -19em;
+        background-image: url(/assests/img/Rectangle\ 13.png);
+    }
+
+    
+}
